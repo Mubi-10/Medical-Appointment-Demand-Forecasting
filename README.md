@@ -1,3 +1,9 @@
+# 🏥 Medical Appointment Demand Forecasting
+
+> Time-series analysis and forecasting of daily medical appointment demand using Python, SARIMA, and Streamlit.
+
+---
+
 ## 📌 Project Overview
 
 Healthcare facilities need to anticipate patient appointment demand
@@ -39,8 +45,9 @@ The project uses historical medical appointment records containing
 information related to appointments, patients, appointment timing,
 weather conditions, and other relevant attributes.
 
-The appointment-level data was aggregated by appointment date to
-create a daily time-series dataset.
+The appointment-level data was aggregated by appointment date
+to create a daily time-series dataset, where each observation
+represents the total number of appointments recorded on a given day.
 
 ### Target Variable
 
@@ -138,8 +145,8 @@ The time series was divided chronologically:
 - Training period: January 2020 – February 2021
 - Testing period: February 2021 – May 2021
 
-The chronological split prevents future observations from being
-used to train the forecasting model.
+The chronological split ensures that observations from the test
+period are not used to fit the forecasting model.
 
 ## 🤖 Forecasting Models
 
@@ -234,44 +241,8 @@ analysis and forecasting results.
 
 ![Model Performance](screenshots/model_performance.png)
 
-
-## 📁 Project Structure
-
-```text
-Medical-Appointment-Demand-Forecasting/
-│
-├── data/
-│   ├── Data_Dictionary.csv
-│   ├── daily_demand.csv
-│   ├── forecast_results.csv
-│   └── future_forecast.csv
-│
-├── notebooks/
-│   ├── 1_Data_Cleaning.ipynb
-│   ├── 2_EDA.ipynb
-│   ├── 3_Feature_Engineering&Modeling.ipynb
-│   └── 4_Demand_Forecasting.ipynb
-│
-├── pages/
-│   ├── 1_Overview.py
-│   ├── 2_📊_Demand_Analysis.py
-│   ├── 3_🤖_Model_Performance.py
-│   ├── 4_📈_Forecast.py
-│   └── 5_ℹ️_About.py
-│
-├── screenshots/
-│
-├── app.py
-├── README.md
-├── requirements.txt
-└── .gitignore
-
-
 ---
 
-# 🛠️ 14. Technologies Used
-
-```markdown
 ## 🛠️ Technologies Used
 
 ### Programming
@@ -300,24 +271,8 @@ Medical-Appointment-Demand-Forecasting/
 - Git
 - GitHub
 
-## ▶️ How to Run the Project
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/Mubi-10/Medical-Appointment-Demand-Forecasting.git
-cd Medical-Appointment-Demand-Forecasting
-
-
 ---
 
-# 💡 16. Key Findings
-
-Keep this section concise.
-
-Based on your analysis, you can discuss:
-
-```markdown
 ## 💡 Key Findings
 
 - Medical appointment demand shows substantial variation over time.
@@ -357,3 +312,11 @@ Possible improvements include:
 - Automated model retraining
 - Automated forecast updates
 - Deployment of the Streamlit application
+
+## ▶️ How to Run the Project
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Mubi-10/Medical-Appointment-Demand-Forecasting.git
+cd Medical-Appointment-Demand-Forecasting
