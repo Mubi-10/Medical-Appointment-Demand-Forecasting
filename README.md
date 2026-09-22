@@ -226,20 +226,20 @@ analysis and forecasting results.
 
 ### Overview
 
-![Overview](screenshots/overview.png)
-![Overview](screenshots/overview_1.png)
+![Overview](overview.png)
+![Overview](overview_1.png)
 
 ### Demand Analysis
 
-![Demand Analysis](screenshots/demand_analysis.png)
+![Demand Analysis](demand_analysis.png)
 
 ### Forecast
 
-![Forecast](screenshots/forecast.png)
+![Forecast](forecast.png)
 
 ### Model Performance
 
-![Model Performance](screenshots/model_performance.png)
+![Model Performance](model_performance.png)
 
 ---
 
