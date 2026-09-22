@@ -1,0 +1,27 @@
+Column,Data_Type,Category,Description,Role
+specialty,categorical,Appointment,Medical Speciality,Feature
+appointment_time,numerical,Appointment,Appointment Time,Feature
+gender,categorical,Patient,Patient gender,Feature
+no_show,categorical,Target,Appointment attendance,Target
+disability,categorical,Patient,Patient disability,Feature
+place,categorical,Location,Patient Location,Feature
+appointment_shift,categorical,Appointment,Appointment shift,Feature
+age,numerical,Patient,Patient age,Feature
+under_12_years_old,numerical,Patient,Patient age,Feature
+over_60_years_old,numerical,Patient,Patient age,Feature
+patient_needs_companion,numerical,Patient,Patient needs companion,Feature
+average_temp_day,numerical,Weather,Average Temperature,Feature
+average_rain_day,numerical,Weather,Average Rain per day,Feature
+max_temp_day,numerical,Weather,Maximum Temperature per day,Feature
+max_rain_day,numerical,Weather,Maximum Rain per day,Feature
+rainy_day_before,numerical,Weather,Rainy day before,Feature
+storm_day_before,numerical,Weather,Storm day before,Feature
+rain_intensity,categorical,Weather,Rain Intensity,Feature
+heat_intensity,categorical,Weather,Heat Intensity,Feature
+appointment_date_continuous,numerical,Appointment,Appointment date,Feature
+Hipertension,numerical,Health,Patient Health,Feature
+Diabetes,numerical,Health,Patient Health,Feature
+Alcoholism,numerical,Health,Patient Health,Feature
+Handcap,numerical,Health,Patient Health,Feature
+Scholarship,numerical,Socioeconomic,Patient has scholarship,Feature
+SMS_received,numerical,Reminder,SMS reminder,Feature
